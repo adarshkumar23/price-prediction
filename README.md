@@ -1,43 +1,90 @@
-![](https://storage.googleapis.com/kaggle-competitions/kaggle/5407/media/housesbanner.png)
+# Introduction to Git and GitHub
 
-# Deep Learning regression using Tensorflow for house prices prediction.
+This repository contains the work completed as part of the **Introduction to Git and GitHub** course by IBM Developer Skills Network.
 
-## About the repository
-The main goal of this work is to use the low level Tensorflow core API and build a deep learning regression model, to use the competitions dataset that has a lot of features and lots of missing values as well.
+---
 
-As this repository uses Tensorflow core API, it may seems a little too much code to people who is used the Keras or any other high level implementation framework.
+## Simple Interest Calculator
 
-### What you will find
-* EDA and feature preprocessing. [[link]](https://github.com/dimitreOliveira/HousePrices/blob/master/HousePrices%20EDA.Rmd)
-* Neural network model implementation. [[link]](https://github.com/dimitreOliveira/HousePrices/blob/master/model.py)
-* Neural network methods implementation. [[link]](https://github.com/dimitreOliveira/HousePrices/blob/master/methods.py)
-* Model training and prediction. [[link]](https://github.com/dimitreOliveira/HousePrices/blob/master/main.py)
+This project includes a **Simple Interest Calculator** — a Bash script that computes simple interest based on user input.
 
-### House Prices: Advanced Regression Techniques
+### Formula
 
-link for the Kaggle competition: https://www.kaggle.com/c/house-prices-advanced-regression-techniques
+```
+Simple Interest (SI) = (Principal × Rate × Time) / 100
+```
 
-datasets: https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data
+### Input Fields
 
-### Overview
-Ask a home buyer to describe their dream house, and they probably won't begin with the height of the basement ceiling or the proximity to an east-west railroad. But this playground competition's dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence.
+- **Principal (P)** — The initial amount of money invested or borrowed
+- **Rate of Interest (R)** — The annual interest rate (in percentage)
+- **Time Period (T)** — The duration of the investment or loan (in years)
 
-With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this competition challenges you to predict the final price of each home.
+### Output
 
-### Acknowledgments
-The Ames Housing dataset was compiled by Dean De Cock for use in data science education. It's an incredible alternative for data scientists looking for a modernized and expanded version of the often cited Boston Housing dataset. 
+- **Simple Interest** — The interest earned or paid
+- **Total Amount** — Principal + Simple Interest
 
-### R Dependencies:
-* [Dplyr](https://dplyr.tidyverse.org/)
-* [GGplot2](https://ggplot2.tidyverse.org/)
-* [Corrplot](https://cran.r-project.org/web/packages/corrplot/index.html)
+### How to Run
 
-### Python Dependencies:
-* [NumPy](http://www.numpy.org/)
-* [Pandas](http://pandas.pydata.org/)
-* [Sklearn](https://scikit-learn.org/stable/)
-* [Tensorflow](https://www.tensorflow.org/)
-* [Matplotlib](http://matplotlib.org/)
+```bash
+bash simple-interest.sh
+```
 
-### To-Do:
-* The feature extraction of this work needs an overall improvement.
+### Example
+
+```
+Enter Principal amount (P): 1000
+Enter Rate of Interest (R) in % per annum: 5
+Enter Time Period (T) in years: 2
+
+Simple Interest  : 100.00
+Total Amount     : 1100.00
+```
+
+---
+
+## Repository Structure
+
+```
+├── simple-interest.sh       # Bash script for Simple Interest Calculator
+├── README.md                # Project documentation
+├── LICENSE                  # Apache 2.0 License
+├── CONTRIBUTING.md          # Contribution guidelines
+└── CODE_OF_CONDUCT.md       # Code of conduct
+```
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Git installed on your machine
+- Bash shell (Linux/Mac/WSL)
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/adarshkumar23/I_Solved_It-FinAgentGuard.git
+cd I_Solved_It-FinAgentGuard
+```
+
+---
+
+## Contributing
+
+All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+---
+
+## License
+
+This project is licensed under the **Apache License 2.0** — see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Author
+
+**Adarsh Kumar** — [@adarshkumar23](https://github.com/adarshkumar23)
